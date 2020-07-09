@@ -176,4 +176,4 @@ def player_stats(name)
   game_hash.each do |location, team_info|
     team_info[:players].each do |player_stats|
       if player_stats[:name] = name 
-        return 
+        return player_stats
