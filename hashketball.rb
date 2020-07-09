@@ -133,6 +133,6 @@ def num_points_scored(name)
     if team_info[:player_name] == name 
       team_info[:players][:points]
     # binding.pry
-    
+  end 
   end
 end 
