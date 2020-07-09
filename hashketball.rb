@@ -177,3 +177,7 @@ def player_stats(name)
     team_info[:players].each do |player_stats|
       if player_stats[:name] = name 
         return player_stats
+      end
+    end 
+  end 
+end 
