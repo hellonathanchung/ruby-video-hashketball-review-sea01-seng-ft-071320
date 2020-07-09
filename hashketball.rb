@@ -128,8 +128,9 @@ def game_hash
   }
 end
 
-def num_points_scored(player_name)
+def num_points_scored(name)
   game_hash.each do |location, team_info|
+    if team_info[player_name] == nameteam_info[:players][:points]
     binding.pry
   end
 end 
