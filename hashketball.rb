@@ -138,7 +138,7 @@ def num_points_scored(name)
   end
 end 
 
-def shoe_size
+def shoe_size(name)
   game_hash.do |location, team_info|
     binding.pry
   end 
