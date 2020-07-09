@@ -140,3 +140,6 @@ end
 
 def shoe_size
   game_hash.do |location, team_info|
+    binding.pry
+  end 
+end 
