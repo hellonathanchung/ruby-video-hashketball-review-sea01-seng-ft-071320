@@ -167,6 +167,7 @@ def player_numbers(team)
     if team_info[:team_name] == team
       team_info[:players.collect do |players|
         return players[:number]
-  
+      end
+  end
   end 
 end 
