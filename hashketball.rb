@@ -140,6 +140,10 @@ end
 
 def shoe_size(name)
   game_hash.each do |location, team_info|
-    binding.pry
+    team_info[:players].each do |players|
+      if players[:player_name] == name
+        return players[:shoe]
+      end 
+    end
   end 
 end 
