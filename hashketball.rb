@@ -161,3 +161,9 @@ def team_names
     team_info[:team_name]
   end 
 end 
+
+def player_numbers(team_name)
+  game_hash.each do |location, team_info|
+    binding.pry
+  end 
+end 
